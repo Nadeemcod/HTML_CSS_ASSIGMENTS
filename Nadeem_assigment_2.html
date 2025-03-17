@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+<head>
+    <h1>Assigment 2 </h1>
+  <title>Assignment 2 - Table</title>
+<style>
+  /* h1{
+    color: brown;
+  } */
+    table{
+      
+        background-color: lightblue;}
+        th,td{
+            border: 1px solid black;
+            background-color: lightyellow;
+          
+        }
+       th{
+        color:teal;
+       }
+
+
+
+</style>
+</head>
+<body>
+
+<table>
+  <caption>Assignment 2 - Table</caption>
+
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th style="background-color:pink;">Quantity</th>
+      <th style="background-color:pink;">Unit Price</th>
+      <th style="background-color:pink;">Price</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Pencils</td>
+      <td>2</td>
+      <td>$1</td>
+      <td>$2</td>
+    </tr>
+    <tr>
+      <td>Erasers</td>
+      <td>4</td>
+      <td rowspan="2">$0.50</td>
+      <!-- <td colspan="2">$0.4</td> -->
+      <td>$2</td>
+    </tr>
+    <tr>
+      <td colspan="2">Subtotal</td>
+     
+      <td>$4</td>
+    </tr>
+    <tr>
+      <td>Tax</td>
+      <td>10%</td>
+     
+    
+      <td colspan="2">$0.4</td>
+      <td></td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="4">Footer of the table</td>
+    </tr>
+  </tfoot>
+</table>
+
+</body>
+</html>
+<!-- selectors
+element-specific to tag-p,h1,td,thead
+ID-idetifier-unique--#idname
+class-group of elemnt which is properties -.classname
+group-group of id,class,elements -.classname,#idname
+universal--* task -->
