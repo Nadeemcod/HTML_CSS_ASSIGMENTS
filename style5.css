@@ -1,0 +1,20 @@
+/* (1) Adjacent Sibling Combinator:Selects the first <p> tag right after an <h1>.
+h2+p{
+    color:aqua
+} */
+/* (2) Descendant Combinator:Selects all <p> tags inside <div>,
+ even if they’re nested in other elements.
+div p{
+    color: red;
+} */
+/* (3)General Sibling Combinator:Selects all <p> tags that are siblings 
+of <h1> and appear after it.
+h2 ~ p{
+    color:green
+} */
+/* (4)Child Combinator (>):Selects <p> tags that are immediately inside a <div>, 
+but not deeper nested ones.
+
+div > p{
+    color: blueviolet;
+} */

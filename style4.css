@@ -1,0 +1,41 @@
+h3{
+    color: rgb(red, green, blue);
+    margin: 10px 10px;
+    padding: 20px,30px;
+    font-variant: small-caps;
+    font-style: italic;
+    /* text-decoration: overline; */
+    text-shadow: 10px 10px 10px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    /* border: 2px solid black; */
+    border-radius: 100000px;
+    border: 10px double blue;
+}
+h1{
+   color: rgb(red, green, blue);
+    margin: 10px;
+    padding: 20px,30px 40px 50px;
+    font-variant: small-caps;
+    font-style: initial;
+    text-decoration: underline;
+    text-shadow: 10px 10px 30px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    border: 2px solid black;
+    outline: 5px solid blue;
+   
+    box-shadow: 10px 10px 10px black;
+}
+h4{
+    color: rgb(red, green, blue);
+    /* border: dotted 10px blue; */
+}
+
+/* div{
+    padding: 100px 100px 100px 100px;
+    /* margin: 50px 50px 50px; */
+     */
+/* } 
